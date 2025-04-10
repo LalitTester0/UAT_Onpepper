@@ -75,8 +75,8 @@ WebElement destination2=driver.findElement(By.xpath("//div[contains(@class,'_cha
 actions.dragAndDrop(source2, destination2).perform();
  
 Thread.sleep(2000);
-WebElement source3=driver.findElement(By.xpath(" (//*[name()='svg'][@stroke='currentColor'])[6]"));
-actions.dragAndDrop(source3, destination2);
+//WebElement source3=driver.findElement(By.xpath(" (//*[name()='svg'][@stroke='currentColor'])[6]"));
+//actions.dragAndDrop(source3, destination2);
  
  
 		
